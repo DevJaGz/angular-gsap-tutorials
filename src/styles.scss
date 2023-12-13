@@ -12,7 +12,28 @@
 }
 
 html, body{
-  height: 100;
-  background-color: #272727;
-  color: #fff;
+  height: 100%;
+}
+
+
+.beauty-scrollbar::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.beauty-scrollbar::-webkit-scrollbar-track {
+  background: #515151;
+}
+
+.beauty-scrollbar::-webkit-scrollbar-thumb {
+  background: #252525;
+}
+
+.beauty-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #393939;
+}
+
+.beauty-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
 }
